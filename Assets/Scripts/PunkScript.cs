@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PunkScript : MoveAndDestroy
+public class PunkScript : MoveAndDestroy // INHERITANCE
 {
     public ParticleSystem exposionParticle;
     private MainUI mainUI;
     private int pointValue = 1;
-    protected override void Move()
+    protected override void Move() // POLYMORPHISM
     {
         if (playerControllerScript.gameOver == false)
         {
@@ -15,7 +15,7 @@ public class PunkScript : MoveAndDestroy
         }
     }
     private Animator playerAnim;
-    protected override void Start()
+    protected override void Start() // POLYMORPHISM
     {
         base.Start();
         playerAnim = GetComponent<Animator>();

@@ -18,7 +18,7 @@ public  class MoveAndDestroy : MonoBehaviour
         Move();
         DestroyOutOfBounds();
     }
-    protected virtual void Move()
+    protected virtual void Move() 
     {
         if (playerControllerScript.gameOver == false)
         {           

@@ -29,7 +29,7 @@ public class MainUI : MonoBehaviour
     }
     public void MenuGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
     public void UpdateScore(int scoreToAdd)
     {

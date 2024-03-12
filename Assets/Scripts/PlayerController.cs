@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
     private void StoneThrowing()
     {
         Vector3 stonePos = new Vector3(transform.position.x, (transform.position.y + 1.3f), transform.position.z);
-        if (Input.GetKeyDown(KeyCode.RightAlt) && !gameOver)
+        if (Input.GetKeyDown(KeyCode.V) && !gameOver)
         {
             Instantiate(projectilePrefab, stonePos, projectilePrefab.transform.rotation);
             playerAudio.PlayOneShot(throwingSound, 1.0f);
