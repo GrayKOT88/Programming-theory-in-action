@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Undefined
+  - Obstacle
+  - Rock
   layers:
   - Default
   - TransparentFX
